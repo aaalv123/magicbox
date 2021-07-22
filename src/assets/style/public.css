@@ -1,0 +1,64 @@
+html,body,h1,h2,h3,h4,h5,h6,p,ul,li,ol,dl,dt,dd{
+  margin: 0;
+  padding: 0;
+}
+img{
+  border: 0 none;
+}
+a, a:hover{
+  text-decoration: none;
+}
+
+/*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/  
+::-webkit-scrollbar{  
+  width: 6px;
+  height: 6px;
+  background-color: transparent;
+}
+/*定义滚动条轨道 内阴影+圆角*/  
+/* ::-webkit-scrollbar-track{
+  box-shadow: inset 0 0 6px rgba(0,0,0,0.3);  
+  border-radius: 10px;  
+  background-color: #7c6e6e;  
+} */
+/*定义滑块 内阴影+圆角*/
+::-webkit-scrollbar-thumb{  
+  border-radius: 3px;
+  background-color: #989898;
+}
+video::-webkit-media-controls-fullscreen-button {
+  display: none;
+}
+
+html, body{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: #0F1115;
+  font-size: 14px;
+  color: #fff;
+  user-select: none;
+}
+.custom-message-box{
+  background-color: #0F1115 !important;
+  border: 0 none !important;
+}
+.custom-message-box .el-message-box__header{
+  background-image: linear-gradient(180deg, #36353E 0%, #2B282F 100%);
+  padding: 12px 15px;
+}
+.custom-message-box .el-message-box__header .el-message-box__headerbtn{
+  top: 12px;
+}
+.custom-message-box .el-message-box__title{
+  color: #fff;
+  font-size: 14px;
+}
+.custom-message-box .el-message-box__content{
+  color: #E7E7E7;
+}
+.custom-message-box .el-message-box__btns .el-button--primary{
+  background-color: #3D9FFD;
+  font-size: 14px;
+  border: 0 none;
+}
